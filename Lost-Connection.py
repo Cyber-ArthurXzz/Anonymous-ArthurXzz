@@ -27,7 +27,6 @@ times = int(input(" Packets Nuklir :"))
 threads = int(input(" Threads Nuklir :"))
 def run():
 
-os.system("clear")
 os.system("figlet Attack Starting")
 print("ArthurXzz MengHack Situs Mars")
 time.sleep(3)
