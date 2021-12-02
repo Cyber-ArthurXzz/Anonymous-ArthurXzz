@@ -6,9 +6,10 @@ import threading
 import random
 import time
 import os
+import socket
 
 ##############
-s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
 
